@@ -1,8 +1,8 @@
 package Game;
 
 public class Character {
-    private int health;
-    private int strength;
+    private float health;
+    private float strength;
     private int lvl;
     private float exp;
     private float expMax;
@@ -15,11 +15,11 @@ public class Character {
         this.expMax = expMax;
     }
 
-    public void setHealth(int health) {
+    public void setHealth(float health) {
         this.health = health;
     }
 
-    public void setStrength(int strength) {
+    public void setStrength(float strength) {
         this.strength = strength;
     }
 
@@ -38,11 +38,11 @@ public class Character {
     public Character() {
     }
 
-    public int getHealth() {
+    public float getHealth() {
         return health;
     }
 
-    public int getStrength() {
+    public float getStrength() {
         return strength;
     }
 
